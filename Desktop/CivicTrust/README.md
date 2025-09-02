@@ -1,63 +1,88 @@
-# 👮‍♂️ CivicTrust – A Police-Citizen Collaboration Platform
+# 👮‍♂️ CivicTrust – Police & Citizen Connect  
 
-CivicTrust is a digital bridge built to enhance **communication**, **trust**, and **transparency** between citizens and the police. This platform empowers both sides with dedicated dashboards, ensuring quick access to information, secure communication, and seamless collaboration – all to foster safer and smarter communities.
-
----
-
-## 🛡️ Key Features
-
-- **📝 Complaint Management**  
-  File and track complaints digitally with the option for anonymous reporting.
-
-- **🔐 Secure Evidence Upload**  
-  Upload and store digital evidence with complete confidentiality.
-
-- **🧾 Official Report Access**  
-  Easily download verified police reports directly from your dashboard.
-
-- **📍 Live Tracking**  
-  Receive real-time updates on your complaint status and police tips.
-
-- **🗺️ Map Integration**  
-  Locate nearby police stations through an interactive map.
-
-- **🚨 Anonymous Dashboard**  
-  Report suspicious activity without revealing your identity.
-
-- **🤝 Community Help Section**  
-  Access live chat, safety tips, and real-time updates from officers and fellow citizens.
+**CivicTrust** is a platform built to **improve communication** and **build trust** between citizens and the police.  
+It provides dedicated dashboards for both sides, making it simple to share updates, upload evidence, and stay informed.  
+The aim is to make safety and cooperation easier for everyone.  
 
 ---
 
-## 🚀 Tech Stack
+## 🛡️ Main Highlights  
 
-### 🔧 Frontend
-- Next.js
-- React 19
-- Tailwind CSS
-- Framer Motion
-- ShadCN UI
-- React Leaflet + Leaflet
-- Socket.IO Client
-- html2pdf.js
-- React Webcam
+- 📝 **Complaint Handling** – Register and track complaints online (anonymous option available).  
+- 🔐 **Safe Evidence Upload** – Share documents, photos, or videos securely.  
+- 🧾 **Report Access** – Download verified police reports directly.  
+- 📍 **Status Updates** – Get real-time progress and alerts on your case.  
+- 🗺️ **Map Support** – Find nearby police stations on an interactive map.  
+- 🚨 **Anonymous Portal** – Report suspicious activity without sharing personal details.  
+- 🤝 **Community Hub** – Live chat, safety tips, and announcements from officers and citizens.  
 
-### 🧠 Backend
-- Node.js
-- Express
-- Socket.IO
-- Cloudinary + Multer
-  
-### **Database**:
-- MongoDB
-  
-### **Authentication**:
-- JWT
-- Bcrypt.js
-  
-### **Other**: 
-- Google Maps API
-- WebSockets
+---
 
-Issues: 
-Beginner to intermediate level: The Maps API is not as effective as it should be; it does not display the live locations of the stations accurately on a map.Adding to this, an attractive map interface, which also points out the stations.
+## 🚀 Tech Stack  
+
+### 🔧 Frontend  
+- [Next.js](https://nextjs.org/)  
+- React 19  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Framer Motion](https://www.framer.com/motion/)  
+- [ShadCN UI](https://ui.shadcn.com/)  
+- React Leaflet + Leaflet  
+- Socket.IO Client  
+- html2pdf.js  
+- React Webcam  
+
+### 🧠 Backend  
+- Node.js  
+- Express  
+- Socket.IO  
+- Cloudinary + Multer  
+
+### 🗄️ Database  
+- MongoDB  
+
+### 🔐 Authentication  
+- JWT  
+- Bcrypt.js  
+
+### 🌍 Other Tools  
+- Google Maps API  
+- WebSockets  
+
+---
+
+## ⚠️ Current Challenges  
+
+- **Map Accuracy:** Google Maps API doesn’t always show police station locations correctly.  
+- **Map Design:** The interface can be improved with clearer markers and better styling.  
+
+---
+
+## 📌 Roadmap  
+
+- ✅ Improve live location accuracy.  
+- ✅ Redesign map interface with attractive UI.  
+- ✅ Add multi-language support.  
+- ✅ Explore AI-driven safety alerts and predictive insights.  
+
+---
+
+## 💡 Mission  
+
+CivicTrust is more than just a reporting system — it’s a step toward **open communication**, **transparent policing**, and **safer communities**.  
+
+---
+
+## 🛠️ Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/civictrust.git
+
+# Go inside the project folder
+cd civictrust
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
