@@ -133,13 +133,6 @@ We encourage developers, safety advocates, and community leaders to contribute. 
 
 ---
 
-📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-
----
-
 Together, with CivicTrust, we can create safer and more connected communities where every voice matters.
 
 ---
@@ -148,4 +141,5 @@ Let me know if you want:
 - The `LICENSE` file template included.
 - API documentation formatted in Swagger or Postman.
 - A sample contribution guide or issue template for GitHub.
+
 
