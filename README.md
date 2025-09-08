@@ -35,11 +35,8 @@ Join discussions, share experiences, and collaborate with fellow citizens and of
 ## 🛠 Technology Stack
 
 ### Frontend
-- **Next.js** – Fast and SEO-optimized interfaces
 - **React 19** – Scalable component architecture
 - **Tailwind CSS** – Clean and responsive styling
-- **Framer Motion** – Elegant animations and transitions
-- **ShadCN UI** – Pre-built UI components
 - **React Leaflet + Leaflet** – Interactive and customizable maps
 - **Socket.IO Client** – Real-time notifications and messaging
 - **html2pdf.js** – Download reports as PDF documents
@@ -141,5 +138,6 @@ Let me know if you want:
 - The `LICENSE` file template included.
 - API documentation formatted in Swagger or Postman.
 - A sample contribution guide or issue template for GitHub.
+
 
 
