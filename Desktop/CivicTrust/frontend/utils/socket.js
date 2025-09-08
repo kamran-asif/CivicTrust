@@ -1,4 +1,4 @@
-// utils/socket.js
+
 import { io } from 'socket.io-client';
 
 let socket = null;
@@ -6,7 +6,7 @@ let socket = null;
 export const initSocket = () => {
   if (!socket) {
     try {
-      // Use environment variables for the URL, fallback to localhost
+      
       const socketUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001';
       console.log(`Initializing socket connection to ${socketUrl}`);
       
