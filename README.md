@@ -1,5 +1,5 @@
 
-#👮‍♂️ CivicTrust – Building Safer, Stronger Communities
+# 👮‍♂️ CivicTrust – Building Safer, Stronger Communities
 
 **CivicTrust** is a modern platform designed to enhance cooperation between citizens and law enforcement agencies. By providing secure communication tools, transparent reporting channels, and interactive community features, CivicTrust empowers individuals to play an active role in public safety.
 
@@ -138,6 +138,7 @@ Let me know if you want:
 - The `LICENSE` file template included.
 - API documentation formatted in Swagger or Postman.
 - A sample contribution guide or issue template for GitHub.
+
 
 
 
